@@ -18,7 +18,7 @@ List your codebuddiesmeet Slack handle and your github username below if you’d
 - @mualth https://github.com/maudem
 - Your Name Here
 
-Add your name on the google doc (bit.ly/codebuddies-hangouts-platform-v2-googledoc) if your name is not listed, and you want to be added as a collaborator. 
+Add your name on the google doc [http://bit.ly/codebuddies-hangouts-platform-v2-googledoc](http://bit.ly/codebuddies-hangouts-platform-v2-googledoc) if your name is not listed, and you want to be added as a collaborator. 
 
 
 ##What is CodeBuddies?
@@ -53,9 +53,9 @@ an explanation of how to use Slack -- e.g. recommend downloading the slack app s
 
 ## How to contribute as a collaborator on this codebase:
 
-1. Install Meteor.
-2. Fork this repo.
-3. `git checkout [branchname]` to work on one of the branches. You can type `git branch` to see the list of available branches. For example, to check out the `active-users` branch, type `git checkout active-users` in your command line. If you need to create a new branch to work on a feature, type `git checkout -b [name_of_your_new_branch]` and `git push origin [name_of_your_new_branch]`.
+-  Install Meteor.
+- Fork this repo.
+- `git checkout [branchname]` to work on one of the branches. You can type `git branch` to see the list of available branches. For example, to check out the `active-users` branch, type `git checkout active-users` in your command line. If you need to create a new branch to work on a feature, type `git checkout -b [name_of_your_new_branch]` and `git push origin [name_of_your_new_branch]`.
 
 A note on merge conflicts: occasionally you'll want to merge the latest from master into your branch by typing `git merge master` while you are in the branch. Sometimes when you do so, you'll run into merge conflicts. To resolve a merge conflict, edit the file in the code (getting rid of the `>>>> HEAD` and `======` and `<<<<<MASTER` lines, save it, type `git add [filename where the merge conflict occurred]`, and then `git commit`. At this point you'll be in the VIM editor. Hit the `escape` key on your keyboard and then type `:wq` and `enter` on your keyboard to succcesfully conclude the merge conflict.)
 
@@ -63,8 +63,8 @@ To merge a branch back into `master`, type `git merge [name_of_branch]` while yo
 
 Remember, you can always check which branch you are in by typing `git branch`. 
 
-4. Type `meteor` to run this app. Your terminal will tell you to open up a new browser window and go to http://localhost:3000. 
-5. Read [the Telescope documentation](http://telescope.readme.io) to understand how to edit the code on this app.
+- Type `meteor` to run this app. Your terminal will tell you to open up a new browser window and go to http://localhost:3000. 
+- Read [the Telescope documentation](http://telescope.readme.io) to understand how to edit the code on this app.
 
 In general, you should NOT touch any of the code inside the `packages` folder. All edits should be made to the `packages/codebuddies` package.
 
@@ -72,9 +72,9 @@ Basically, we're overwriting the components and templates already available insi
 
 Important reminder: any files you commit to `packages/codebuddies/client/` or `packages/codebuddies/server/` should be added to one of the arrays on `packages/codebuddies/package.js` too. 
 
-6. Browse through the list of issues to see what features are up for grabs. 
+- Browse through the list of issues to see what features are up for grabs. 
 
-7. Join the `#codebuddies-meta` channel on the CodeBuddies Slack (go to [http://codebuddiesmeet.herokuapp.com](http://codebuddiesmeet.herokuapp.com) if you need an invitation to the Slack) to discuss this project and to ask any questions.
+- Join the `#codebuddies-meta` channel on the CodeBuddies Slack (go to [http://codebuddiesmeet.herokuapp.com](http://codebuddiesmeet.herokuapp.com) if you need an invitation to the Slack) to discuss this project and to ask any questions.
 
 
 ##Very rough mockup of what we're building:
