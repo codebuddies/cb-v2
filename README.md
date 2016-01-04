@@ -52,7 +52,7 @@ an explanation of how to use Slack -- e.g. recommend downloading the slack app s
 
 1. Install Meteor.
 2. Fork this repo.
-3. `git checkout [branchname]` to work on one of the branches.
+3. `git checkout [branchname]` to work on one of the branches. You can type `git branch` to see the list of available branches. For example, to check out the `active-users` branch, type `git checkout active-users` in your command line. 
 4. Type `meteor` to run this app in your localhost. 
 5. Read [the Telescope documentation](http://telescope.readme.io) to understand how to edit the code on this app.
 
