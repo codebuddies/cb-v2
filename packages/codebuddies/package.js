@@ -1,7 +1,7 @@
 Package.describe({
   summary: 'Telescope custom package – use as template for your own packages',
   version: '0.1.0',
-  name: 'my-custom-package'
+  name: 'codebuddies'
 });
 
 Package.onUse(function (api) {
@@ -33,6 +33,8 @@ Package.onUse(function (api) {
     'lib/client/templates/hello.js',
     'lib/client/templates/custom_post_title.html',
     'lib/client/templates/custom_post_title.js',
+    'lib/client/templates/active_users.html',
+    'lib/client/templates/active_users.js',
     'lib/client/stylesheets/custom.scss',
     'lib/client/custom_templates.js'
   ], ['client']);

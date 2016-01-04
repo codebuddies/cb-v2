@@ -1,0 +1,9 @@
+<template name="activeUsers">
+ There are currently {{usersOnlineCount}} users online.
+<h1>List of Users online </h1>
+  <ul>
+   {{#each usersOnline}}
+   <li><span class="label {{labelClass}}">{{username}}</span></li>
+   {{/each}}
+  </ul>
+</template>

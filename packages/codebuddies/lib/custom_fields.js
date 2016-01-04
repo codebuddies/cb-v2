@@ -43,3 +43,16 @@ Settings.addField({
     }
   }
 });
+
+
+// Additional fields for mizzao:user-status.
+
+// Users.schema = new SimpleSchema({ 
+//   status: {
+//     type: Object,
+//     blackbox: true
+//   }
+// });
+
+
+//Users.attachSchema(userSchema);

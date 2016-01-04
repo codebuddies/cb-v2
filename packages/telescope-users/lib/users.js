@@ -230,6 +230,10 @@ Users.schema = new SimpleSchema({
     type: Object,
     optional: true,
     blackbox: true
+  },
+  status: {
+     type: Object,
+     blackbox: true
   }
 });
 

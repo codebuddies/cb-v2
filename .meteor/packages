@@ -43,4 +43,7 @@ telescope:update-prompt
 
 ############ Your Custom Packages ############
 
-# my-custom-package
+codebuddies
+
+mizzao:user-status
+mizzao:bootstrap-3

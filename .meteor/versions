@@ -32,6 +32,7 @@ check@1.1.0
 chuangbo:cookie@1.1.0
 chuangbo:marked@0.3.5_1
 cmather:handlebars-server@2.0.0
+codebuddies@0.1.0
 coffeescript@1.0.11
 cosmos:browserify@0.8.1
 dburles:collection-helpers@1.0.4
@@ -90,6 +91,9 @@ meteorspark:util@0.2.0
 minifiers@1.1.7
 minimongo@1.0.10
 miro:mailchimp@1.1.0
+mizzao:bootstrap-3@3.3.1_1
+mizzao:timesync@0.3.4
+mizzao:user-status@0.6.6
 mobile-status-bar@1.0.6
 momentjs:moment@2.10.6
 mongo@1.1.3
