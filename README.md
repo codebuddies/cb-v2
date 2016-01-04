@@ -16,10 +16,13 @@ List your codebuddiesmeet Slack handle and your github username below if you’d
 - @ccr https://github.com/Iccr
 - @ghazi https://github.com/ghmoha
 - @mualth https://github.com/maudem
+- Your Name Here
+
+Add your name on the google doc (bit.ly/codebuddies-hangouts-platform-v2-googledoc) if your name is not listed, and you want to be added as a collaborator. 
 
 
 ##What is CodeBuddies?
-We're an international community of independent code learners who support each other on Slack, schedule hangouts to learn with each other at http://hangouts.codebuddies.org, and contribute to an anonymous weekly shout-out newsletter at http://codebuddies.org/weekly. Learning with each other helps us learn faster. We’ve also teamed up with The Odin Project member volunteers on a Facebook group: https://www.facebook.com/groups/TOPSTUDYGROUP/. We strive to create a safe space for anyone interested in code to talk about the learning process. The project is free and open-sourced on Github [NEW GITHUB LINK TO BE PASTED HERE].
+We're an international community of independent code learners who support each other on Slack, schedule hangouts to learn with each other at http://hangouts.codebuddies.org, and contribute to an anonymous weekly shout-out newsletter at http://codebuddies.org/weekly. Learning with each other helps us learn faster. We’ve also teamed up with The Odin Project member volunteers on a Facebook group: https://www.facebook.com/groups/TOPSTUDYGROUP/. We strive to create a safe space for anyone interested in code to talk about the learning process. The project is free and open-sourced on Github.
 
 ##Is CodeBuddies an organization?
 No. It's a free-spirited community of enterprising learners and amazing volunteers who enjoy sharing knowledge with each other. 
@@ -48,12 +51,12 @@ an explanation of how to use Slack -- e.g. recommend downloading the slack app s
 - P1: An “about” page (or section of the home page?) explaining what the community is about, and some of the top contributors here -- i.e. people who’ve made pull requests, are volunteer moderators on the Slack, have lots of /prowd points, etc. 
 
 
-## How to contribute as a collaborator on this codebase
+## How to contribute as a collaborator on this codebase:
 
 1. Install Meteor.
 2. Fork this repo.
-3. `git checkout [branchname]` to work on one of the branches. You can type `git branch` to see the list of available branches. For example, to check out the `active-users` branch, type `git checkout active-users` in your command line. 
-4. Type `meteor` to run this app in your localhost. 
+3. `git checkout [branchname]` to work on one of the branches. You can type `git branch` to see the list of available branches. For example, to check out the `active-users` branch, type `git checkout active-users` in your command line. If you need to create a new branch to work on a feature, type `git checkout -b [name_of_your_new_branch]` and `git push origin [name_of_your_new_branch]`.
+4. Type `meteor` to run this app. Your terminal will tell you to open up a new browser window and go to http://localhost:3000. 
 5. Read [the Telescope documentation](http://telescope.readme.io) to understand how to edit the code on this app.
 
 In general, you should NOT touch any of the code inside the `packages` folder. All edits should be made to the `packages/codebuddies` package.
@@ -63,8 +66,9 @@ Basically, we're overwriting the components and templates already available insi
 Important reminder: any files you commit to `packages/codebuddies/client/` or `packages/codebuddies/server/` should be added to one of the arrays on `packages/codebuddies/package.js` too. 
 
 6. Browse through the list of issues to see what features are up for grabs. 
-7. Join the `#codebuddies-meta` channel on the CodeBuddies Slack (go to [http://codebuddiesmeet.herokuapp.com](http://codebuddiesmeet.herokuapp.com) if you need an invitation to the Slack) to discuss this project.
-8. Add your name on the google doc (bit.ly/codebuddies-hangouts-platform-v2-googledoc) if your name is not listed, and you want to be added as a collaborator. 
+
+7. Join the `#codebuddies-meta` channel on the CodeBuddies Slack (go to [http://codebuddiesmeet.herokuapp.com](http://codebuddiesmeet.herokuapp.com) if you need an invitation to the Slack) to discuss this project and to ask any questions.
+
 
 ##Very rough mockup of what we're building:
 ![very rough mockup of hangouts v2.0](http://codebuddies.org/images/codebuddies-v2-mockup.jpg)
